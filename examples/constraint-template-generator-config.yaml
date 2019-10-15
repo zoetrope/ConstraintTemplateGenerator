@@ -1,0 +1,7 @@
+kind: ConstraintTemplateGenerator
+apiVersion: "kustomize.cybozu.com/v1"
+metadata:
+  name: constraint-template-generator-config
+base: sample.yaml
+regos:
+  - sample.rego
